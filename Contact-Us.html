@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contact-Us.css">
+    <script src="Contact-Us.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/10892186.png">
+    <title>Contact Us</title>
+</head>
+<body>
+ 
+    <main>
+        <form action="https://formspree.io/f/xwprdpwb"  method="post" id="form">
+            <header>
+                <h2 style="font-size: 27px;">Contact Us</h2>
+            </header>
+            <section class="fields">
+                <div class="form-control">
+                    <small data-testid="test-contact-success">Form has been submitted successfully</small>
+                </div>
+                <section class="label-and-input">
+                    <label for="full-name">Full Name</label>
+                    <div class="form-control">
+                        <input type="text" name="Full-name" placeholder="Enter your full name" id="full-name" data-testid="test-contact-name">
+                        <p data-testid="test-contact-error-name"><i class="fa-solid fa-circle-exclamation"></i>*Error message</p>
+                    </div>
+                </section>
+
+                <section class="label-and-input">
+                    <label for="email">Email</label>
+                    <div class="form-control">
+                        <input type="text" name="Email" placeholder="Personal or Work" id="email" data-testid="test-contact-email">
+                        <p data-testid="test-contact-error-email">*Error message</p>
+                    </div>
+                </section>
+
+                <section class="label-and-input">
+                    <label for="subject">Subject</label>
+                    <div class="form-control">
+                        <input type="text" name="Subject" placeholder="Subject" id="subject" data-testid="test-contact-subject">
+                        <p data-testid="test-contact-error-subject">*Error message</p>
+                    </div>
+                </section>
+                
+                <section class="label-and-input">
+                    <label for="short-Message">Short Message</label>
+                    <div class="form-control">
+                        <textarea name="Message" placeholder="Your Message" id="short-Message" data-testid="test-contact-message"></textarea>
+                        <p data-testid="test-contact-error-message">*Error message</p>
+                    </div>
+                </section>
+
+                <section class="submit">
+                    <button>Submit</button>
+                </section>
+            </section>
+
+        </form>
+    </main>
+</body>
+</html>

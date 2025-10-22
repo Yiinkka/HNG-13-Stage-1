@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Profile-Card.css">
+    <script src="Profile-Card.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">    
+    <script src="https://kit.fontawesome.com/b2e4911e1b.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/IMG_4384.JPG">
+    <title>Profile Card HNG 13 Stage 0</title>
+</head>
+<body>
+    <article>
+        <div class="card-container" data-testid="test-profile-card">
+            <section class="card-front">
+                <figure>
+                    <img src="images/IMG_4384.JPG" alt="Profile Picture" data-testid="test-user-avatar">
+                </figure>
+                <div class="bio">
+                    <header data-testid="test-user-name">Mara Quinn</header>
+                    <p data-testid="test-user-bio">
+                        C former University Student battling drug addiction,
+                        she was admitted on March 15, 2025, and is now committed to
+                        recovery and building her life.
+                    </p>
+                    <p class="time"> <i class="fa-solid fa-clock"></i>:<span id="time-ms" data-testid="test-user-time">1760710699355</span></p>
+                    <div class="socials" data-testid="test-user-social-links">
+                        <ul class="socials-media">
+                            <li><a href="https://www.instagram.com/yiinka._/" target="blank" rel="noopener noreferrer" aria-label="instagram" data-testid="test-user-social-instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://x.com/Joecci_" target="blank" rel="noopener noreferrer" aria-label="Twitter" data-testid="test-user-social-twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href="https://github.com/Yiinkka" target="blank" rel="noopener noreferrer" aria-label="Github" data-testid="test-user-social-github"><i class="fa-brands fa-github"></i></a></li>
+                        </ul>
+                        <a href="Contact-Us.html" id="contact-us">Contact Us</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="back-card">
+
+                <section class="about">
+                    <header>Hobbies</header>
+                    <ul  data-testid="test-user-hobbies">
+                        <li>Making Music</li>
+                        <li>Reading Novel</li>
+                        <li>Drawing</li>
+                    </ul>
+                </section>
+
+                <section class="about">
+                    <header>Dislikes</header>
+                    <ul data-testid="test-user-dislikes">
+                        <li>Being Underestimated</li>
+                        <li>Dishonesty</li>
+                        <li>Loud Environment</li>
+                    </ul>
+                </section>
+
+            </section>
+
+        </div>
+    </article>
+    
+</body>
+</html>
